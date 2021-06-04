@@ -1,4 +1,6 @@
-function loadTests() {
+let globalEval = eval;
+
+PMUtil = function loadTests() {
     let Tests = {};
     Tests.OK = () => {
         pm.test("Validación Código 200", function () {
