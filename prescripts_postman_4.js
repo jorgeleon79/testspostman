@@ -50,5 +50,5 @@ if (typeof PMUtil === "undefined") {
 		})
 	    };
 	  return Tests;
-
+	}
 }
